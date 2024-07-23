@@ -1,0 +1,19 @@
+/* styles.css */
+.product {
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1.5px solid white;
+    transition: transform 0.3s, box-shadow 0.5s, background-color 0.3s, color 0.3s;
+  }
+  
+  .product-hover {
+    background-color: LightSteelBlue;
+    border-color: LightSteelBlue;
+    color: white; /* Change text color to white when background is red */
+  }
+  
+  .product-hover a, 
+  .product-hover figcaption, 
+  .product-hover input {
+    color: white; /* Ensure all text elements change color */
+  }
